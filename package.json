@@ -1,0 +1,23 @@
+{
+  "name": "week-6-project",
+  "version": "1.0.0",
+  "description": "\"# Week-6-Project\"",
+  "main": "War.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aloderstedt/Week-6-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aloderstedt/Week-6-Project/issues"
+  },
+  "homepage": "https://github.com/aloderstedt/Week-6-Project#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0"
+  }
+}
