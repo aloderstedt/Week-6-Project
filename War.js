@@ -62,7 +62,7 @@ class Card {
 function playRound() {
     const playerOneCard = playerOneDeck.flip();
     const playerTwoCard = playerTwoDeck.flip();
-    console.log(`${playerOneCard.rank} ${playerOneCard.suit} VS ${playerTwoCard.rank} ${playerTwoCard.suit}`);
+    console.log(`[PLAYER ONE] ${playerOneCard.rank} ${playerOneCard.suit} -VS- [PLAYER TWO] ${playerTwoCard.rank} ${playerTwoCard.suit}`);
     if (winsRound(playerOneCard, playerTwoCard)) {
         playerOneScore += 1;
         console.log(`Player One wins the round! 
